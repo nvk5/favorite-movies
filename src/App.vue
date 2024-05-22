@@ -4,6 +4,8 @@ import Movie from "@/components/Movie.vue";
 import Search from "@/components/Search.vue";
 
 const movieStore = useMovieStore();
+
+console.log(import.meta.env)
 </script>
 
 <template>
